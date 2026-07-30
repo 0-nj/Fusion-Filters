@@ -478,6 +478,32 @@
     {
       "borderColor": "#00000000",
       "groupId": "gv",
+      "id": "v-bw",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "B&W",
+      "pattern": "(?i)(?:\\bB[\\s._-]?(?:&|and)[\\s._-]?W\\b|\\bblack[\\s._-]?(?:&|and)[\\s._-]?white\\b|ʙʟᴀᴄᴋ ?& ?ᴡʜɪᴛᴇ)",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gv",
+      "id": "v-ai",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "AI",
+      "pattern": "(?i)(?:\\bAI[\\s._-]?(?:upscale[d]?|enhanced)\\b|AI✦)",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gv",
       "id": "a-dv",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/vision.png",
       "isEnabled": true,
