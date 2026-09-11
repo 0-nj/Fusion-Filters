@@ -2,6 +2,13 @@
   "groups": [
     {
       "color": "#27C04F",
+      "id": "gp",
+      "isExpanded": true,
+      "name": "Score",
+      "borderColor": "#00000000"
+    },
+    {
+      "color": "#27C04F",
       "id": "gq",
       "isExpanded": true,
       "name": "Quality",
@@ -58,6 +65,19 @@
     }
   ],
   "filters": [
+    {
+      "borderColor": "#00000000",
+      "groupId": "gp",
+      "id": "pct",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "{1}%",
+      "pattern": "(?<![0-9])([1-9][0-9]?|100)%",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
     {
       "borderColor": "#00000000",
       "groupId": "gq",
