@@ -2,13 +2,6 @@
   "groups": [
     {
       "color": "#27C04F",
-      "id": "gp",
-      "isExpanded": true,
-      "name": "Score",
-      "borderColor": "#00000000"
-    },
-    {
-      "color": "#27C04F",
       "id": "gq",
       "isExpanded": true,
       "name": "Quality",
@@ -50,13 +43,6 @@
       "borderColor": "#00000000"
     },
     {
-      "color": "#0EA5E9",
-      "id": "gsz",
-      "isExpanded": true,
-      "name": "Size",
-      "borderColor": "#00000000"
-    },
-    {
       "id": "language",
       "name": "Language",
       "color": "#FFCC00",
@@ -72,32 +58,6 @@
     }
   ],
   "filters": [
-    {
-      "borderColor": "#00000000",
-      "groupId": "gp",
-      "id": "pct",
-      "imageURL": "",
-      "isEnabled": true,
-      "name": "{1}%",
-      "pattern": "(?<![0-9])([1-9][0-9]?|100)%",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#00000000",
-      "groupId": "gp",
-      "id": "score_num",
-      "imageURL": "",
-      "isEnabled": true,
-      "name": "ScoreNo: {1}",
-      "pattern": "(?is)\\((-?(?:[1-9][0-9]{0,3}|1[0-9]{4}|20000))\\)(?=(?:\\s*\\n?➥\\s*DL Stream)?(?:\\s*·\\s*⇣\\s*Preloaded)?\\s*$)",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
     {
       "borderColor": "#00000000",
       "groupId": "gq",
@@ -733,19 +693,6 @@
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#00000000",
-      "groupId": "gsz",
-      "id": "bitrate-value",
-      "imageURL": "",
-      "isEnabled": true,
-      "name": "{1} Mbps",
-      "pattern": "(?i)([0-9]+(?:\\.[0-9]+)?)\\s*(?:Mbps|Mbit/s|Mb/s|ᴹᵇᵖˢ)",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#80FFFFFF",
       "type": "filter"
     },
     {
